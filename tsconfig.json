@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",                // Define root directory explicitly
+    "outDir": "dist",                // Output compiled files to "dist"
+    "lib": ["es2020"],               // Use ES2020 standard library
+    "target": "es2020",              // Target modern JavaScript
+    "module": "esnext",              // Use ES modules
+    "moduleResolution": "node",      // Resolve modules using Node.js rules
+    "esModuleInterop": true,         // Better compatibility with ES6 modules
+    "strict": true,                  // Enable strict type checking
+    "sourceMap": true,               // Enable source maps for debugging
+    "forceConsistentCasingInFileNames": true, // Prevent casing mismatches
+    "skipLibCheck": true,            // Skip type checking of dependencies
+    "experimentalDecorators": true,  // Enable decorators (useful in TypeGraphQL)
+    "emitDecoratorMetadata": true,   // Needed for TypeGraphQL decorators
+    "types": ["node"]                // Include Node.js types
+  },
+  "include": ["src"],                // Include the "src" folder in compilation
+  "exclude": ["node_modules", "dist"] // Ignore unnecessary files
+}
