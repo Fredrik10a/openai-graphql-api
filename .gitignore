@@ -1,4 +1,6 @@
 # Ignore environment variable files
+.env
+.env.*
 dist/
 node_modules/
 *.lock
